@@ -39,7 +39,7 @@ const HeroText = ({ data }: Props ) => {
 	const { ref, inView } = useInView({
 		triggerOnce: true,
 		threshold: 0.2,
-		rootMargin: '-150px'
+		rootMargin: '-50px'
 	});
 
 	return (
